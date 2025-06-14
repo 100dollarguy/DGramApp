@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { BrowserProvider, Contract } from "ethers";
 import SocialMediaABI from "./SocialMedia.json";
 
-const contractAddress = "0xFc530eA8E3E1F9690f19De05D19e34B33b0337Ae";
+const contractAddress = "0xb96aC38CA4199255f09325E507F6EFE04B1A9ac7";
 
 function App() {
   const [posts, setPosts] = useState([]);
